@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="game_name">Сов`падение</string>
+    <string name="button_start">Начать игру</string>
+    <string name="text_on_start_page">\n Добро пожаловать в игру на ассоциации. \n\n Вам предстоит придумывать слова и словосочетания на заданную категорию, стараясь, чтобы они совпали (в раундах Сова и Блиц) или не совпали (в раундах Жаворонки) с ответами других игроков. Победителем становится игрок, набравший наибольшее количество очков по итогу 6 раундов.</string>
+    <string name="start_text">Добро пожаловать в игру</string>
+    <string name="button_fix_answer">Зафиксировать ответы</string>
+</resources>
