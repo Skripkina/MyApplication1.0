@@ -6,4 +6,5 @@
     <string name="start_text">Добро пожаловать в игру</string>
     <string name="button_fix_answer">Зафиксировать ответы</string>
     <string name="round_sova">Раунд Сова</string>
+    <string name="rules_sova">Правила раунда: \n В данном раунде вам нужно записать наиболее популярные ответы на предложенный вопрос</string>
 </resources>

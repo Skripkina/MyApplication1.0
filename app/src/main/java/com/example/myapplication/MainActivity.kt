@@ -7,6 +7,7 @@ import android.widget.Toast
 import com.example.myapplication.databinding.StartPageBinding
 import kotlin.math.log
 import android.content.Intent
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: StartPageBinding
@@ -20,10 +21,18 @@ class MainActivity : AppCompatActivity() {
 //                Toast.makeText(applicationContext,"CORRECT!",Toast.LENGTH_SHORT).show()
 //            }
 //        }
-    }
 
-    fun onClickStartGame() {
-        Intent(this, SovaActivity::class.java)
+        val btn_start_game = findViewById(R.id.button_start_game) as Button
+        btn_start_game.setOnClickListener {
+            val intent = Intent(this@MainActivity, SovaActivity::class.java)
+            startActivity(intent)
+
+        }
+
+//        button.setOnClickListener {
+//            val intent = Intent(this@MainActivity, SovaActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 
 }

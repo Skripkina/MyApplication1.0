@@ -10,7 +10,5 @@ class SovaActivity : Activity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.round_sova)
-
     }
-
 }
